@@ -1,0 +1,720 @@
+{
+  "_type": "Project",
+  "_id": "7d54c5f9016a4f309e3c7f50706c5f6b",
+  "name": "La Vienesa - Unidad 2",
+  "ownedElements": [
+    {
+      "_type": "UMLModel",
+      "_id": "869f9151bbf042d98a50cfc043c8c512",
+      "_parent": {
+        "$ref": "7d54c5f9016a4f309e3c7f50706c5f6b"
+      },
+      "name": "Entidades",
+      "ownedElements": [
+        {
+          "_type": "UMLClassDiagram",
+          "_id": "87f6050941764f399542375dce2fb30a",
+          "_parent": {
+            "$ref": "869f9151bbf042d98a50cfc043c8c512"
+          },
+          "name": "La Vienesa U2",
+          "defaultDiagram": true,
+          "ownedViews": [
+            {
+              "_type": "UMLClassView",
+              "_id": "ced444b237f84b2ea136571bd9c4b227",
+              "_parent": {
+                "$ref": "87f6050941764f399542375dce2fb30a"
+              },
+              "model": {
+                "$ref": "610064b74c564466b589b05095993423"
+              },
+              "left": 30,
+              "top": 30,
+              "width": 350,
+              "height": 156,
+              "font": "Arial;13;0",
+              "fillColor": "#ffffff"
+            },
+            {
+              "_type": "UMLClassView",
+              "_id": "838ededb34364cf2a600c1b294fcd459",
+              "_parent": {
+                "$ref": "87f6050941764f399542375dce2fb30a"
+              },
+              "model": {
+                "$ref": "ab71757bc7524c9da3d2b185a24dc6ed"
+              },
+              "left": 470,
+              "top": 30,
+              "width": 350,
+              "height": 420,
+              "font": "Arial;13;0",
+              "fillColor": "#ffffff"
+            },
+            {
+              "_type": "UMLClassView",
+              "_id": "5aa02d8ffad24345ab8287e74d69ea4b",
+              "_parent": {
+                "$ref": "87f6050941764f399542375dce2fb30a"
+              },
+              "model": {
+                "$ref": "7c88455f1cb84665ad31047f897badfe"
+              },
+              "left": 900,
+              "top": 30,
+              "width": 350,
+              "height": 204,
+              "font": "Arial;13;0",
+              "fillColor": "#ffffff"
+            },
+            {
+              "_type": "UMLClassView",
+              "_id": "d382a0773f064ce7bb39d6e51c885ef8",
+              "_parent": {
+                "$ref": "87f6050941764f399542375dce2fb30a"
+              },
+              "model": {
+                "$ref": "922b530806c74cb29ea52778df0488fe"
+              },
+              "left": 900,
+              "top": 370,
+              "width": 350,
+              "height": 204,
+              "font": "Arial;13;0",
+              "fillColor": "#ffffff"
+            },
+            {
+              "_type": "UMLClassView",
+              "_id": "9a33cd1054e94a5cb2d2df309d6c1ca7",
+              "_parent": {
+                "$ref": "87f6050941764f399542375dce2fb30a"
+              },
+              "model": {
+                "$ref": "42c4226327ac4f59a28e5776363bb93c"
+              },
+              "left": 470,
+              "top": 510,
+              "width": 350,
+              "height": 204,
+              "font": "Arial;13;0",
+              "fillColor": "#ffffff"
+            },
+            {
+              "_type": "UMLAssociationView",
+              "_id": "323d925011be4349bc157252bb7dced5",
+              "_parent": {
+                "$ref": "87f6050941764f399542375dce2fb30a"
+              },
+              "model": {
+                "$ref": "339debabcc4e4a91b77a204dd7db6720"
+              },
+              "tail": {
+                "$ref": "ced444b237f84b2ea136571bd9c4b227"
+              },
+              "head": {
+                "$ref": "838ededb34364cf2a600c1b294fcd459"
+              },
+              "points": "205:110;645:110",
+              "lineStyle": 1
+            },
+            {
+              "_type": "UMLAssociationView",
+              "_id": "80a43374812845c9875dc8f8e4652fdb",
+              "_parent": {
+                "$ref": "87f6050941764f399542375dce2fb30a"
+              },
+              "model": {
+                "$ref": "dd49c78185194a978decfeb70555fecd"
+              },
+              "tail": {
+                "$ref": "5aa02d8ffad24345ab8287e74d69ea4b"
+              },
+              "head": {
+                "$ref": "d382a0773f064ce7bb39d6e51c885ef8"
+              },
+              "points": "1075:110;1075:450",
+              "lineStyle": 1
+            },
+            {
+              "_type": "UMLAssociationView",
+              "_id": "8514e3972eac4a65a2a04cb5da34c6f8",
+              "_parent": {
+                "$ref": "87f6050941764f399542375dce2fb30a"
+              },
+              "model": {
+                "$ref": "b9541c9ecb19463eb89c964924b252f9"
+              },
+              "tail": {
+                "$ref": "d382a0773f064ce7bb39d6e51c885ef8"
+              },
+              "head": {
+                "$ref": "9a33cd1054e94a5cb2d2df309d6c1ca7"
+              },
+              "points": "1075:450;645:590",
+              "lineStyle": 1
+            },
+            {
+              "_type": "UMLAssociationView",
+              "_id": "f1074aaf9f6b483ea02bf2bedb5f4c65",
+              "_parent": {
+                "$ref": "87f6050941764f399542375dce2fb30a"
+              },
+              "model": {
+                "$ref": "2e8a1e2c812346a1ba9d4fc3679b8f6a"
+              },
+              "tail": {
+                "$ref": "838ededb34364cf2a600c1b294fcd459"
+              },
+              "head": {
+                "$ref": "9a33cd1054e94a5cb2d2df309d6c1ca7"
+              },
+              "points": "645:110;645:590",
+              "lineStyle": 1
+            }
+          ]
+        },
+        {
+          "_type": "UMLClass",
+          "_id": "610064b74c564466b589b05095993423",
+          "_parent": {
+            "$ref": "869f9151bbf042d98a50cfc043c8c512"
+          },
+          "name": "Categoria",
+          "attributes": [
+            {
+              "_type": "UMLAttribute",
+              "_id": "8f1530dde16448788f31d500e0b1b8e9",
+              "_parent": {
+                "$ref": "610064b74c564466b589b05095993423"
+              },
+              "name": "id",
+              "type": "Long",
+              "visibility": "private"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "5941aa5bf74846109915d3e450c7e743",
+              "_parent": {
+                "$ref": "610064b74c564466b589b05095993423"
+              },
+              "name": "nombre",
+              "type": "String",
+              "visibility": "private"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "b24e6a8779cc4330b7a9d476ea85b30f",
+              "_parent": {
+                "$ref": "610064b74c564466b589b05095993423"
+              },
+              "name": "productos",
+              "type": "List<Producto>",
+              "visibility": "private"
+            }
+          ],
+          "operations": [
+            {
+              "_type": "UMLOperation",
+              "_id": "f3bc199a59404f8dbc7739f923f0c7ea",
+              "_parent": {
+                "$ref": "610064b74c564466b589b05095993423"
+              },
+              "name": "agregarProducto",
+              "visibility": "public"
+            }
+          ]
+        },
+        {
+          "_type": "UMLClass",
+          "_id": "ab71757bc7524c9da3d2b185a24dc6ed",
+          "_parent": {
+            "$ref": "869f9151bbf042d98a50cfc043c8c512"
+          },
+          "name": "Producto",
+          "attributes": [
+            {
+              "_type": "UMLAttribute",
+              "_id": "112ffd07b86b41aea1257dc4b1909a91",
+              "_parent": {
+                "$ref": "ab71757bc7524c9da3d2b185a24dc6ed"
+              },
+              "name": "id",
+              "type": "Long",
+              "visibility": "private"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "0f3719e0aed74419bd99d63ef0cf959f",
+              "_parent": {
+                "$ref": "ab71757bc7524c9da3d2b185a24dc6ed"
+              },
+              "name": "nombre",
+              "type": "String",
+              "visibility": "private"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "49400c0fca1b49168bf66a12174ec28d",
+              "_parent": {
+                "$ref": "ab71757bc7524c9da3d2b185a24dc6ed"
+              },
+              "name": "presentacion",
+              "type": "String",
+              "visibility": "private"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "e25230bae47045f1b5fae5b7cb2bdb59",
+              "_parent": {
+                "$ref": "ab71757bc7524c9da3d2b185a24dc6ed"
+              },
+              "name": "precio",
+              "type": "BigDecimal",
+              "visibility": "private"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "aee56ce87908467c9196f9987c577b2a",
+              "_parent": {
+                "$ref": "ab71757bc7524c9da3d2b185a24dc6ed"
+              },
+              "name": "stock",
+              "type": "Integer",
+              "visibility": "private"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "f02a0013f2bf4be58373c32294212505",
+              "_parent": {
+                "$ref": "ab71757bc7524c9da3d2b185a24dc6ed"
+              },
+              "name": "activo",
+              "type": "boolean",
+              "visibility": "private"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "67b0bdd4024b4c518d0a53362a808662",
+              "_parent": {
+                "$ref": "ab71757bc7524c9da3d2b185a24dc6ed"
+              },
+              "name": "version",
+              "type": "Long",
+              "visibility": "private"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "3e55d77faf5b44b696ca386c49ada447",
+              "_parent": {
+                "$ref": "ab71757bc7524c9da3d2b185a24dc6ed"
+              },
+              "name": "creadoEn",
+              "type": "LocalDateTime",
+              "visibility": "private"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "49bf712a031148aeb6180276c7ba54a4",
+              "_parent": {
+                "$ref": "ab71757bc7524c9da3d2b185a24dc6ed"
+              },
+              "name": "actualizadoEn",
+              "type": "LocalDateTime",
+              "visibility": "private"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "2ebe4b0390e34ee7ab6e17afb15f1fad",
+              "_parent": {
+                "$ref": "ab71757bc7524c9da3d2b185a24dc6ed"
+              },
+              "name": "categoria",
+              "type": "Categoria",
+              "visibility": "private"
+            }
+          ],
+          "operations": [
+            {
+              "_type": "UMLOperation",
+              "_id": "cf2b93b685704887b60feb47b809ea88",
+              "_parent": {
+                "$ref": "ab71757bc7524c9da3d2b185a24dc6ed"
+              },
+              "name": "crear",
+              "visibility": "public"
+            },
+            {
+              "_type": "UMLOperation",
+              "_id": "4ae37bcc67f64a48b098182cd288520f",
+              "_parent": {
+                "$ref": "ab71757bc7524c9da3d2b185a24dc6ed"
+              },
+              "name": "listar",
+              "visibility": "public"
+            },
+            {
+              "_type": "UMLOperation",
+              "_id": "0ce11721aed04817a8805d83cf245183",
+              "_parent": {
+                "$ref": "ab71757bc7524c9da3d2b185a24dc6ed"
+              },
+              "name": "actualizar",
+              "visibility": "public"
+            },
+            {
+              "_type": "UMLOperation",
+              "_id": "b02e98a0794b4a2f8ede0625cd8691d8",
+              "_parent": {
+                "$ref": "ab71757bc7524c9da3d2b185a24dc6ed"
+              },
+              "name": "desactivar",
+              "visibility": "public"
+            },
+            {
+              "_type": "UMLOperation",
+              "_id": "f098e2a126b74b81a61cf9b791b6f24c",
+              "_parent": {
+                "$ref": "ab71757bc7524c9da3d2b185a24dc6ed"
+              },
+              "name": "porCategoria",
+              "visibility": "public"
+            }
+          ]
+        },
+        {
+          "_type": "UMLClass",
+          "_id": "7c88455f1cb84665ad31047f897badfe",
+          "_parent": {
+            "$ref": "869f9151bbf042d98a50cfc043c8c512"
+          },
+          "name": "Cliente",
+          "attributes": [
+            {
+              "_type": "UMLAttribute",
+              "_id": "16d0989755754a0ab24701880241317d",
+              "_parent": {
+                "$ref": "7c88455f1cb84665ad31047f897badfe"
+              },
+              "name": "id",
+              "type": "Long",
+              "visibility": "private"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "775e6b5503fb47d7aa657442f0d71722",
+              "_parent": {
+                "$ref": "7c88455f1cb84665ad31047f897badfe"
+              },
+              "name": "nombre",
+              "type": "String",
+              "visibility": "private"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "0789d4e09fb94ab5ad5b2ab03e12b8ec",
+              "_parent": {
+                "$ref": "7c88455f1cb84665ad31047f897badfe"
+              },
+              "name": "correo",
+              "type": "String",
+              "visibility": "private"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "92db617bec8a4f80b5245872e8e3131e",
+              "_parent": {
+                "$ref": "7c88455f1cb84665ad31047f897badfe"
+              },
+              "name": "telefono",
+              "type": "String",
+              "visibility": "private"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "880a203cd061404cbc839d2bc4108555",
+              "_parent": {
+                "$ref": "7c88455f1cb84665ad31047f897badfe"
+              },
+              "name": "facturas",
+              "type": "List<Factura>",
+              "visibility": "private"
+            }
+          ],
+          "operations": [
+            {
+              "_type": "UMLOperation",
+              "_id": "f3e3ee0c86aa4ba5ba2017b57c266a19",
+              "_parent": {
+                "$ref": "7c88455f1cb84665ad31047f897badfe"
+              },
+              "name": "agregarFactura",
+              "visibility": "public"
+            }
+          ]
+        },
+        {
+          "_type": "UMLClass",
+          "_id": "922b530806c74cb29ea52778df0488fe",
+          "_parent": {
+            "$ref": "869f9151bbf042d98a50cfc043c8c512"
+          },
+          "name": "Factura",
+          "attributes": [
+            {
+              "_type": "UMLAttribute",
+              "_id": "62c89a2d4e424320a7c591792587935e",
+              "_parent": {
+                "$ref": "922b530806c74cb29ea52778df0488fe"
+              },
+              "name": "id",
+              "type": "Long",
+              "visibility": "private"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "c24f2f605f9d40f59d43a7d36db584dc",
+              "_parent": {
+                "$ref": "922b530806c74cb29ea52778df0488fe"
+              },
+              "name": "fecha",
+              "type": "LocalDateTime",
+              "visibility": "private"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "2e6b36e1eb54496e88c07472fbd71e13",
+              "_parent": {
+                "$ref": "922b530806c74cb29ea52778df0488fe"
+              },
+              "name": "cliente",
+              "type": "Cliente",
+              "visibility": "private"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "333ae9802d6c44b9a23499282f2f3c0f",
+              "_parent": {
+                "$ref": "922b530806c74cb29ea52778df0488fe"
+              },
+              "name": "detalles",
+              "type": "List<DetalleFactura>",
+              "visibility": "private"
+            }
+          ],
+          "operations": [
+            {
+              "_type": "UMLOperation",
+              "_id": "33c041a79fed4382bc5c7516762a1c49",
+              "_parent": {
+                "$ref": "922b530806c74cb29ea52778df0488fe"
+              },
+              "name": "agregarDetalle",
+              "visibility": "public"
+            },
+            {
+              "_type": "UMLOperation",
+              "_id": "489bb5b5134d48049eb13454f331c40c",
+              "_parent": {
+                "$ref": "922b530806c74cb29ea52778df0488fe"
+              },
+              "name": "total",
+              "visibility": "public"
+            }
+          ]
+        },
+        {
+          "_type": "UMLClass",
+          "_id": "42c4226327ac4f59a28e5776363bb93c",
+          "_parent": {
+            "$ref": "869f9151bbf042d98a50cfc043c8c512"
+          },
+          "name": "DetalleFactura",
+          "attributes": [
+            {
+              "_type": "UMLAttribute",
+              "_id": "2e989ef26d2149fe85902a1b6016b590",
+              "_parent": {
+                "$ref": "42c4226327ac4f59a28e5776363bb93c"
+              },
+              "name": "id",
+              "type": "Long",
+              "visibility": "private"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "526c3881ccf949c7b4ca43d0042caaac",
+              "_parent": {
+                "$ref": "42c4226327ac4f59a28e5776363bb93c"
+              },
+              "name": "factura",
+              "type": "Factura",
+              "visibility": "private"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "893afbdd77d64877a9f1116eff948868",
+              "_parent": {
+                "$ref": "42c4226327ac4f59a28e5776363bb93c"
+              },
+              "name": "producto",
+              "type": "Producto",
+              "visibility": "private"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "f969b1481a754a11aac8440670746fe6",
+              "_parent": {
+                "$ref": "42c4226327ac4f59a28e5776363bb93c"
+              },
+              "name": "cantidad",
+              "type": "Integer",
+              "visibility": "private"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "d7c5b5e58c9c47baab5aae128261ee0e",
+              "_parent": {
+                "$ref": "42c4226327ac4f59a28e5776363bb93c"
+              },
+              "name": "precioUnitario",
+              "type": "BigDecimal",
+              "visibility": "private"
+            }
+          ],
+          "operations": [
+            {
+              "_type": "UMLOperation",
+              "_id": "03f687041060465fa7510f7f2c7b4b64",
+              "_parent": {
+                "$ref": "42c4226327ac4f59a28e5776363bb93c"
+              },
+              "name": "subtotal",
+              "visibility": "public"
+            }
+          ]
+        },
+        {
+          "_type": "UMLAssociation",
+          "_id": "339debabcc4e4a91b77a204dd7db6720",
+          "_parent": {
+            "$ref": "869f9151bbf042d98a50cfc043c8c512"
+          },
+          "name": "",
+          "end1": {
+            "_type": "UMLAssociationEnd",
+            "_id": "75cc2d3211914552bfe8811741c4ccdd",
+            "_parent": {
+              "$ref": "339debabcc4e4a91b77a204dd7db6720"
+            },
+            "reference": {
+              "$ref": "610064b74c564466b589b05095993423"
+            },
+            "multiplicity": "0..1"
+          },
+          "end2": {
+            "_type": "UMLAssociationEnd",
+            "_id": "499ed9b81b9e49af8c02424073e95c4a",
+            "_parent": {
+              "$ref": "339debabcc4e4a91b77a204dd7db6720"
+            },
+            "reference": {
+              "$ref": "ab71757bc7524c9da3d2b185a24dc6ed"
+            },
+            "multiplicity": "0..*"
+          }
+        },
+        {
+          "_type": "UMLAssociation",
+          "_id": "dd49c78185194a978decfeb70555fecd",
+          "_parent": {
+            "$ref": "869f9151bbf042d98a50cfc043c8c512"
+          },
+          "name": "",
+          "end1": {
+            "_type": "UMLAssociationEnd",
+            "_id": "4c065be248bc4fbf8ce37068b87a5623",
+            "_parent": {
+              "$ref": "dd49c78185194a978decfeb70555fecd"
+            },
+            "reference": {
+              "$ref": "7c88455f1cb84665ad31047f897badfe"
+            },
+            "multiplicity": "1"
+          },
+          "end2": {
+            "_type": "UMLAssociationEnd",
+            "_id": "5a8c254e050c4c37b28f1558e4c52a26",
+            "_parent": {
+              "$ref": "dd49c78185194a978decfeb70555fecd"
+            },
+            "reference": {
+              "$ref": "922b530806c74cb29ea52778df0488fe"
+            },
+            "multiplicity": "0..*"
+          }
+        },
+        {
+          "_type": "UMLAssociation",
+          "_id": "b9541c9ecb19463eb89c964924b252f9",
+          "_parent": {
+            "$ref": "869f9151bbf042d98a50cfc043c8c512"
+          },
+          "name": "",
+          "end1": {
+            "_type": "UMLAssociationEnd",
+            "_id": "18746454eadb455090eede4733de029b",
+            "_parent": {
+              "$ref": "b9541c9ecb19463eb89c964924b252f9"
+            },
+            "reference": {
+              "$ref": "922b530806c74cb29ea52778df0488fe"
+            },
+            "multiplicity": "1"
+          },
+          "end2": {
+            "_type": "UMLAssociationEnd",
+            "_id": "52f76c9cd30042579e8e37de68c45b37",
+            "_parent": {
+              "$ref": "b9541c9ecb19463eb89c964924b252f9"
+            },
+            "reference": {
+              "$ref": "42c4226327ac4f59a28e5776363bb93c"
+            },
+            "multiplicity": "0..*"
+          }
+        },
+        {
+          "_type": "UMLAssociation",
+          "_id": "2e8a1e2c812346a1ba9d4fc3679b8f6a",
+          "_parent": {
+            "$ref": "869f9151bbf042d98a50cfc043c8c512"
+          },
+          "name": "",
+          "end1": {
+            "_type": "UMLAssociationEnd",
+            "_id": "497e861cc7a444209caf6330d57df997",
+            "_parent": {
+              "$ref": "2e8a1e2c812346a1ba9d4fc3679b8f6a"
+            },
+            "reference": {
+              "$ref": "ab71757bc7524c9da3d2b185a24dc6ed"
+            },
+            "multiplicity": "1"
+          },
+          "end2": {
+            "_type": "UMLAssociationEnd",
+            "_id": "1a7fa149c8254c56b52059afadc38623",
+            "_parent": {
+              "$ref": "2e8a1e2c812346a1ba9d4fc3679b8f6a"
+            },
+            "reference": {
+              "$ref": "42c4226327ac4f59a28e5776363bb93c"
+            },
+            "multiplicity": "0..*"
+          }
+        }
+      ]
+    }
+  ]
+}
